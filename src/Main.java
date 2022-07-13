@@ -10,10 +10,8 @@ public class Main {
     private static final String inputError = "Invalid input\ntry again";
 
     public static void main(String[] args) {
-
         System.out.println("Enter a number of users: ");
         int numberOfUsers = getIntFromInput();
-
 
         System.out.println("Enter a number of dimensions: ");
         int dimensions = getIntFromInput();
